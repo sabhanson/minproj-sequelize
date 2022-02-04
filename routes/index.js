@@ -5,7 +5,7 @@ router.use('/api', apiRoutes);
 
 //this response will send if the user accesses a url that doesn't exist
 router.use((req, res) => {
-  res.send("<h1>Wrong Route!</h1>")
+  res.send("<h1>Wrong Route!</h1><h2>Use /api/locations, /api/travellers, or /api/trips")
 });
 
 module.exports = router;

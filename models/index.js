@@ -11,7 +11,6 @@ Traveller.hasMany(Trip);
 
 Location.hasMany(Traveller);
 
-
 Location.hasMany(Trip);
 
 Trip.belongsTo(Location);
